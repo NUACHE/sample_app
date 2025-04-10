@@ -21,6 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: userCustomColors.backGroundColor,
       appBar: AppBar(
+        centerTitle: false,
         title: Text(selectedIndex == 0
             ? 'Home'
             : selectedIndex == 1
