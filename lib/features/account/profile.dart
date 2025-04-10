@@ -61,6 +61,7 @@ class _UpdateProfileState extends State<UpdateProfile> {
     return Scaffold(
       backgroundColor: userCustomColors.backGroundColor,
       appBar: AppBar(
+        centerTitle: false,
         automaticallyImplyLeading: true,
         title: Text('Update profile'),
         backgroundColor: userCustomColors.whiteColor,
